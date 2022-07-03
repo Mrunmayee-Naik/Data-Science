@@ -10,10 +10,10 @@ from sklearn.metrics import mean_squared_error
 
 RFR=RandomForestRegressor(n_jobs=-1)
 
-df1 = pd.read_csv('C:/Users/manas/Downloads/Chicago_Crimes_2001_to_2004.csv/Chicago_Crimes_2001_to_2004.csv',low_memory=False ,on_bad_lines='skip')
-#df2 = pd.read_csv('C:/Users/manas/Downloads/Chicago_Crimes_2005_to_2007.csv/Chicago_Crimes_2005_to_2007.csv',low_memory=False, on_bad_lines='skip')
-#df3 = pd.read_csv('C:/Users/manas/Downloads/Chicago_Crimes_2008_to_2011.csv/Chicago_Crimes_2008_to_2011.csv',low_memory=False, on_bad_lines='skip')
-#df4 = pd.read_csv('C:/Users/manas/Downloads/Chicago_Crimes_2012_to_2017.csv/Chicago_Crimes_2012_to_2017.csv',low_memory=False, on_bad_lines='skip')
+df1 = pd.read_csv('D:/Chicago_Crimes_2001_to_2004.csv',low_memory=False ,on_bad_lines='skip')
+#df2 = pd.read_csv('D:/Chicago_Crimes_2005_to_2007.csv',low_memory=False, on_bad_lines='skip')
+#df3 = pd.read_csv('D:/Chicago_Crimes_2008_to_2011.csv',low_memory=False, on_bad_lines='skip')
+#df4 = pd.read_csv('D:/Chicago_Crimes_2012_to_2017.csv',low_memory=False, on_bad_lines='skip')
 #df = pd.concat([df1, df2, df3,df4], ignore_index=False, axis=0)
 
 #print(df1.keys())
