@@ -32,7 +32,7 @@ df=pd.read_csv("D:/Mrunmayee Naik/IRIS.csv")
  # X= the features and Y= the label on basis here supervised learning is performed
 
 #Now remove y from x by drop funct put axis =1 this removes whole column
-X=df.drop("species",axis =1 )
+X=df.drop("species",axis =1 ) 
 #select the y axis
 Y=df["species"]
 
