@@ -7,7 +7,7 @@ from lightgbm import LGBMClassifier
 
 lgbm = LGBMClassifier()
 
-df = pd.read_csv('C:/Users/manas/Downloads/Census Income/adult.csv')
+df = pd.read_csv('D:/adult.csv')
 df.columns=df.columns.str.strip()
 #print(df.head())
 print(df.describe())
