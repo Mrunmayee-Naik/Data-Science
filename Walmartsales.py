@@ -25,8 +25,8 @@ GN=GaussianNB()
 
 
 
-data=pd.read_csv("C:/Users/manas/Downloads/walmart-recruiting-store-sales-forecasting/train.csv")
-data_test=pd.read_csv("C:/Users/manas/Downloads/walmart-recruiting-store-sales-forecasting/test.csv")
+data=pd.read_csv("D:/train.csv")
+data_test=pd.read_csv("D:/test.csv")
 
 print(data.head())
 
