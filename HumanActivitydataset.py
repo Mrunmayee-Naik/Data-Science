@@ -15,7 +15,7 @@ RC=RandomForestClassifier(random_state=5)
 scaler=StandardScaler()
 
 
-df_train=pd.read_csv('C:/Users/manas/Downloads/train.csv/train.csv')
+df_train=pd.read_csv('D:/train.csv')
 #print(df_train)
 
 '''print(df_train.isnull().sum())
